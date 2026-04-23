@@ -14,7 +14,7 @@ export default function HeroSection() {
           </h1>
 
           <p className="justify-copy max-w-2xl text-lg leading-8 text-[#4b4b4b] md:text-xl">
-            My name is Tobias Bech Pihl and I have recently completed my education as civil Engineer in Game Development and learning technology.
+            My name is Tobias Bech Pihl and I have recently completed my education as Master in Science in Game Development and learning technology.
             Through my studies, I have developed a broad technical profile spanning software development, interactive systems, XR, and user-centered digital experiences, with a focus on building solutions that combine technical depth with practical usability.
             I am particularly motivated by projects where technology, design, and real-world impact meet - whether through web platforms, immersive applications, or applied digital learning experiences.
           </p>
