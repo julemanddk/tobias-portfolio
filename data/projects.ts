@@ -24,9 +24,9 @@ export const projects: Project[] = [
       'Designed and developed a live web platform for the Paris à la Danmark race event, focused on delivering a practical solution for a real stakeholder. The project demonstrates real-world web development, stakeholder dialogue, iterative improvement, and responsibility for a functioning webpage. It highlights experience with translating requirements into a usable digital product while maintaining and further developing the platform over time.',
     technologies: ['React', 'Typescript', 'next.js', 'frontend development', 'web design', 'stakeholder collaboration'],
       images: [
-      '/images/projects/project-2-1.png',
-      '/images/projects/project-2-2.png',
-      '/images/projects/project-2-3.png',
+      'tobias-portfolio/images/projects/project-2-1.png',
+      'tobias-portfolio/images/projects/project-2-2.png',
+      'tobias-portfolio/images/projects/project-2-3.png',
     ],
   },
   {
@@ -36,11 +36,11 @@ export const projects: Project[] = [
       'Developed as part of an interdisciplinary XR project focused on training healthcare staff in fire response procedures. Built as a VR application, the solution used immersive interaction and scenario-based design to support practical training in a realistic but controlled virtual environment. The project emphasized user-centered development, collaboration across disciplines, and the translation of real training needs into an applied XR learning experience.',
     technologies: ['Unity', 'C#', 'Virtual Reality', 'XR Development', 'User-Centered Design', 'Interdisciplinary Collaboration'],
       images: [
-      '/images/projects/project-3-1.png',
-      '/images/projects/project-3-2.png',
-      '/images/projects/project-3-3.png',
-      '/images/projects/project-3-4.png',
-      '/images/projects/project-3-5.png',
+      'tobias-portfolio/images/projects/project-3-1.png',
+      'tobias-portfolio/images/projects/project-3-2.png',
+      'tobias-portfolio/images/projects/project-3-3.png',
+      'tobias-portfolio/images/projects/project-3-4.png',
+      'tobias-portfolio/images/projects/project-3-5.png',
     ],
   },
   {
@@ -50,8 +50,8 @@ export const projects: Project[] = [
       'Developed a small-scale automation project combining physical sensing, control logic, and a digital twin concept to simulate and monitor system state. The solution used environmental inputs such as temperature and humidity to determine when a window should open or close, linking real-world sensor data to a digital representation of the system. The project demonstrates practical experience with hardware-software integration, automation logic, and physically grounded system design',
     technologies: ['Embedded control', 'IoT', 'Digital Twin', 'Sensor Integration', 'Automation Logic', 'C++'],
     images: [
-      '/images/projects/project-4-1.png',
-      '/images/projects/project-4-2.png',
+      'tobias-portfolio/images/projects/project-4-1.png',
+      'tobias-portfolio/images/projects/project-4-2.png',
     ],
   },
   {
