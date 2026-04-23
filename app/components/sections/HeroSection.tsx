@@ -25,7 +25,7 @@ export default function HeroSection() {
         <div className="relative overflow-hidden rounded-[32px] border border-[#d6c5ae] bg-[#ede7de] p-3 shadow-[0_12px_35px_rgba(46,46,46,0.10)]">
           <div className="relative aspect-[4/5] overflow-hidden rounded-[24px] bg-[#f7f3ee]">
             <Image
-              src="tobias-portfolio/images/profile/profile-photo.jpg"
+              src="/tobias-portfolio/images/profile/profile-photo.jpg"
               alt="Portrait of Your Name"
               fill
               priority
