@@ -1,4 +1,6 @@
-import Image from 'next/image';
+import Image from "next/image";
+
+const basePath = "/tobias-portfolio";
 
 export default function HeroSection() {
   return (
@@ -14,9 +16,15 @@ export default function HeroSection() {
           </h1>
 
           <p className="justify-copy max-w-2xl text-lg leading-8 text-[#4b4b4b] md:text-xl">
-            My name is Tobias Bech Pihl and I have recently completed my education as Master in Science in Game Development and learning technology.
-            Through my studies, I have developed a broad technical profile spanning software development, interactive systems, XR, and user-centered digital experiences, with a focus on building solutions that combine technical depth with practical usability.
-            I am particularly motivated by projects where technology, design, and real-world impact meet - whether through web platforms, immersive applications, or applied digital learning experiences.
+            My name is Tobias Bech Pihl and I have recently completed my
+            Master of Science in Engineering in Game Development and Learning
+            Technology. Through my studies, I have developed a broad technical
+            profile spanning software development, interactive systems, XR, and
+            user-centered digital experiences, with a focus on building
+            solutions that combine technical depth with practical usability.
+            I am particularly motivated by projects where technology, design,
+            and real-world impact meet — whether through web platforms,
+            immersive applications, or applied digital learning experiences.
           </p>
         </div>
       </div>
@@ -25,10 +33,11 @@ export default function HeroSection() {
         <div className="relative overflow-hidden rounded-[32px] border border-[#d6c5ae] bg-[#ede7de] p-3 shadow-[0_12px_35px_rgba(46,46,46,0.10)]">
           <div className="relative aspect-[4/5] overflow-hidden rounded-[24px] bg-[#f7f3ee]">
             <Image
-              src="https://julemanddk.github.io/tobias-portfolio/images/profile/profile-photo.jpg"
-              alt="Portrait of Your Name"
+              src={`${basePath}/images/profile/profile-photo.jpg`}
+              alt="Portrait of Tobias Bech Pihl"
               fill
               priority
+              unoptimized
               className="object-cover"
             />
           </div>

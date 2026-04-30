@@ -1,13 +1,15 @@
-import { Project } from '@/types/project';
-import ImageSlider from '@/app/components/slider/ImageSlider';
+import { Project } from "@/types/project";
+import ImageSlider from "@/app/components/slider/ImageSlider";
 
 type ProjectCardProps = {
   project: Project;
 };
 
+const BASE_PATH = "/tobias-portfolio";
+
 export default function ProjectCard({ project }: ProjectCardProps) {
   const galleryImages = project.images.map((src, index) => ({
-    src,
+    src: `${BASE_PATH}${src}`,
     alt: `${project.title} - image ${index + 1}`,
   }));
 
@@ -30,8 +32,8 @@ export default function ProjectCard({ project }: ProjectCardProps) {
         </p>
 
         <p className="justify-copy text-base leading-7 text-[#4b4b4b]">
-          <span className="font-semibold text-[#2e2e2e]">Technologies:</span>{' '}
-          {project.technologies.join(', ')}
+          <span className="font-semibold text-[#2e2e2e]">Technologies:</span>{" "}
+          {project.technologies.join(", ")}
         </p>
       </div>
     </article>
