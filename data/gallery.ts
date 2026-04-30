@@ -49,7 +49,7 @@ export const galleryByYear: GalleryYear[] = [
         alt: "Finish line – 2025",
       },
       {
-        src: "/images/gallery/2025/project-2-3.png",
+        src: "/tobias-portfolio/images/gallery/2025/project-2-3.png",
         alt: "Finish line – 2025",
       },
       {
